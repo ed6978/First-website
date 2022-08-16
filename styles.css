@@ -83,29 +83,9 @@ body {
 border: 300px;
 background-color: white;
 height:  450px;
-
 }
 
 
-
-
-
-
-
-
-/* fonts for headings and texts */
-
-h1 {
-   font-size: 48px;
-   font-weight: extra-bold;
-   color: #f9FAF8;
-}
-
-.font {
-    font-size: 18px;
-   color: #E5E7EB;
-  
-}
 
 .second-section-font {
    font-family: Roboto;
@@ -121,6 +101,7 @@ h1 {
 .cards-container {
    display: flex;
    justify-content: center;
+   align-items: center;
    gap: 2rem;
    text-align: center;
    
@@ -132,14 +113,17 @@ h1 {
    border-style: solid ;
    border-color: #3882f6;
    padding: 2px 16px;
-   width: 150px;
-   height: 180px;
+   width: 110px;
+   height: 150px;
    
 }
 
 
-
-
+.font-cards {
+   margin-top: 170px;
+   font-size: 18px;
+   
+}
 
 
 
@@ -163,4 +147,18 @@ ul {
    display: flex;
    gap: 2rem;
    
+}
+
+/* fonts for headings and texts */
+
+h1 {
+   font-size: 48px;
+   font-weight: extra-bold;
+   color: #f9FAF8;
+}
+
+.font {
+    font-size: 18px;
+   color: #E5E7EB;
+  
 }
