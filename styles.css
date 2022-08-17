@@ -68,6 +68,7 @@ body {
 
 
 /* left top middle section "this is website"*/
+
 .left {
    width: 400px;
    text-align: start;
@@ -82,7 +83,7 @@ body {
 .second-container {
 border: 300px;
 background-color: white;
-height:  450px;
+height:  500px;
 }
 
 
@@ -126,9 +127,24 @@ height:  450px;
 }
 
 
+/* third layout 2nd to bottom */
 
+.third-container {
+   background: #e5e6e6;
+   padding: 200px;
+}
 
-
+.quote-section {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: black;
+   font-size: 36px;
+   font-style: italic;
+   color: #1F2937;
+  
+   text-align: start;
+}
 
 
 /* links and list styles */
