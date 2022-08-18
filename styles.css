@@ -1,9 +1,9 @@
 body {
    display: flex;
    flex-direction: column;
-   font-family: Roboto;
+   font-family: 'Roboto', sans-serif;
    margin: 0;
-   flex-basis: 100%;
+   
    
 }
 
@@ -33,18 +33,15 @@ body {
 
 .container-one {
   display: flex;
-  flex-direction: row;
   justify-content: space-evenly;
-  padding-top:  60px;
-  width: 100%;
-  
+  height: 390px;
+  align-items: center;
 }
 
 
 
 .border {
    background: gray;
-   border-radius: solid 10px black;
    padding:30px;
    width: 450px;
    height: 170px;
@@ -57,10 +54,17 @@ body {
    
 }
 
-.button {
+
+.button:hover {
+   color: white;
+
+}
+
+
+.button1 {
    border: 2px solid  #3882F6;
    border-radius:10px;
-   font-family: Roboto;
+   transition-duration: 0.4s;
    font-size: 18px;
    font-weight:bolder;
    padding: 7px;
@@ -84,7 +88,8 @@ h1 {
 }
 
 a:hover {
-   background-color: gray;
+   color: gray;
+
 }
 
 
@@ -105,9 +110,9 @@ ul {
 }
 
 p {
-   font-size: 20px;
+   font-size: 18px;
    margin-top: -25px;
-
+   color: #E5E7EB;
 }
 
 /* left top middle section "this is website"*/
@@ -127,6 +132,7 @@ p {
 border: 300px;
 background-color: white;
 height:  500px;
+
 }
 
 
@@ -178,7 +184,7 @@ height:  500px;
    align-items: center;
    background: #e5e6e6;
    padding: 200px;
-   height: 80px;
+   height: 50px;
 }
 
 .quote-section {
@@ -192,11 +198,10 @@ height:  500px;
 }
 
 .thor {
-  margin-top: 100px;
-  font-size: 20px;
-  font-weight: bolder;
-  
-  
+  font-size: 18px;
+  font-weight:bold;
+  margin-top: 200px;
+
 }
 
 /* 4th layout bottom */
@@ -235,7 +240,7 @@ h3 {
 
 
 
-.bottom-button {
+.button2 {
    border-radius:6px;
    font-family: Roboto;
    font-size: 16px;
@@ -244,7 +249,7 @@ h3 {
    color: white;
    background: #3882F6;
    border: 2px solid white;
-   
+   transition-duration: 0.4s;
 }
 
 
